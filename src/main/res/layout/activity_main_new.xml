@@ -138,7 +138,7 @@
             android:layout_marginBottom="80dp"
             android:orientation="vertical">
             <Button
-                android:id="@+id/btn_"
+                android:id="@+id/btn_combined_train"
                 android:layout_width="184dp"
                 android:layout_height="300dp"
                 android:layout_gravity="center"
@@ -166,6 +166,7 @@
             android:layout_marginBottom="80dp"
             android:orientation="vertical">
             <Button
+                android:id="@+id/btn_app_tools"
                 android:layout_width="184dp"
                 android:layout_height="300dp"
                 android:layout_gravity="center"
@@ -193,6 +194,7 @@
             android:layout_marginBottom="80dp"
             android:orientation="vertical">
             <Button
+                android:id="@+id/btn_hacker_space"
                 android:layout_width="204dp"
                 android:layout_height="320dp"
                 android:layout_gravity="center"
@@ -219,6 +221,7 @@
             android:layout_marginBottom="80dp"
             android:orientation="vertical">
             <Button
+                android:id="@+id/btn_setting"
                 android:layout_width="204dp"
                 android:layout_height="320dp"
                 android:layout_gravity="center"
