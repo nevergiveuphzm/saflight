@@ -39,6 +39,18 @@
         </LinearLayout>
 
         <LinearLayout
+
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="#1C1C1C"
+            android:clickable="true"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+        </LinearLayout>
+
+        <LinearLayout
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="20"
@@ -58,30 +70,37 @@
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="fill_parent"
-            android:layout_weight="2.5"
+            android:layout_weight="4.5"
             android:background="#1C1C1C"
             android:orientation="horizontal"
-            android:gravity="right">
+            android:gravity="center">
 
             <ImageView
                 android:id="@+id/img_help"
-                android:layout_width="0dp"
-                android:layout_weight="1"
-                android:layout_height="match_parent"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
                 android:layout_marginRight="20dp"
                 android:gravity="center_vertical"
+                android:background="@drawable/img_help"
                 android:scaleType="center"
-                android:visibility="gone"
                />
             <ImageView
                 android:id="@+id/img_save"
-                android:layout_width="0dp"
-                android:layout_weight="1"
-                android:layout_height="match_parent"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
                 android:layout_marginRight="20dp"
                 android:gravity="center_vertical"
+                android:background="@drawable/img_save"
                 android:scaleType="center"
-                android:visibility="gone"
+                />
+            <ImageView
+                android:id="@+id/img_set"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginRight="20dp"
+                android:gravity="center_vertical"
+                android:background="@drawable/img_set"
+                android:scaleType="center"
                 />
         </LinearLayout>
     </LinearLayout>

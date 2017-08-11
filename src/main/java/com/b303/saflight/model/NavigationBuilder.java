@@ -13,6 +13,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.b303.saflight.R;
+import com.b303.saflight.activity.SitUpsActivity;
 import com.b303.saflight.adapter.ItemNameGVAdapter;
 import com.b303.saflight.adapter.NavigationItemsHLVAdapter;
 import com.b303.saflight.widget.HorizontalListView;
@@ -108,5 +109,10 @@ public class NavigationBuilder implements View.OnClickListener, AdapterView.OnIt
         Toast.makeText(context, category.getCenterNameStringIds()[selectedCategory][i], Toast.LENGTH_SHORT).show();
         //Intent intent = new Intent();
         //context.startActivity(intent);
+        if(selectedCategory==4&&i==0){
+            Intent intent = new Intent();
+            intent.setClass(context, SitUpsActivity.class);
+            context.startActivity(intent);
+        }
     }
 }

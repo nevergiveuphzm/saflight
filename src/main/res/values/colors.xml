@@ -3,10 +3,7 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
-<<<<<<< HEAD
-    <!--item_list-->
     <color name="colorWhite">#fff</color>
-=======
     <color name="red">#FF0000</color>
     <color name="black">#000000 </color>
     <color name="white">#FFFFFF</color>
@@ -62,5 +59,4 @@
     <!--水平训练列表-->
     <color name="item_bg">#99cccc</color>
     <color name="item_select_bg">#33cc99</color>
->>>>>>> origin/baichangcai
 </resources>

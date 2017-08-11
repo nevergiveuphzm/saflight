@@ -7,15 +7,12 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-<<<<<<< HEAD
+
         android:theme="@style/AppTheme">
-        <activity android:name=".activity.MainActivity">
-        </activity>
+
+        <activity android:name=".activity.CombinedTrainingActivity"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar"  />
         <activity android:name=".activity.NavigationActivity">
-=======
-        android:theme="@style/Theme.AppCompat.Light.NoActionBar"  >
-        <activity android:name=".activity.CombinedTrainingActivity">
->>>>>>> origin/baichangcai
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
@@ -23,7 +20,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".activity.ApplicationToolsActivity"/>
-        <activity android:name=".activity.HackerSpaceActivity">s
+        <activity android:name=".activity.SitUpsActivity"/>
+        <activity android:name=".activity.HackerSpaceActivity">
         </activity>
     </application>
 
