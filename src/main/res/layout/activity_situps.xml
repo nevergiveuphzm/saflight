@@ -48,6 +48,7 @@
                 android:background="@drawable/bg_traintime">
 
                 <TextView
+                    android:id="@+id/tv_training_time"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="80dp"
@@ -64,6 +65,7 @@
                 android:layout_marginTop="70dp">
 
                 <ImageView
+                    android:id="@+id/img_training_time_sub"
                     android:layout_width="45dp"
                     android:layout_height="45dp"
                     android:layout_marginTop="5dp"
@@ -79,6 +81,7 @@
                     android:textSize="30sp" />
 
                 <SeekBar
+                    android:id="@+id/bar_training_time"
                     style="@style/Widget.SeekBar.Normal"
                     android:layout_width="380dp"
                     android:layout_height="35dp"
@@ -95,6 +98,7 @@
                     android:textSize="30sp" />
 
                 <ImageView
+                    android:id="@+id/img_training_time_add"
                     android:layout_width="45dp"
                     android:layout_height="45dp"
                     android:layout_marginLeft="510dp"
@@ -137,12 +141,14 @@
                     </Spinner>
 
                     <Button
+                        android:id="@+id/btn_on"
                         android:layout_width="80dp"
                         android:layout_height="50dp"
                         android:layout_marginLeft="15dp"
                         android:background="@drawable/img_openlight" />
 
                     <Button
+                        android:id="@+id/btn_off"
                         android:layout_width="80dp"
                         android:layout_height="50dp"
                         android:layout_marginLeft="15dp"
@@ -224,6 +230,7 @@
                 android:gravity="center"
                 >
                 <Button
+                    android:id="@+id/btn_begin"
                     android:layout_width="160dp"
                     android:layout_height="60dp"
                     android:layout_marginLeft="0dp"
@@ -321,6 +328,7 @@
                     android:textSize="25sp" />
             </RelativeLayout>
             <ListView
+                android:id="@+id/lv_times"
                 android:layout_width="match_parent"
                 android:layout_height="600dp"
                 android:layout_marginTop="130dp"

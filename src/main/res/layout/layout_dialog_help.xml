@@ -89,7 +89,8 @@
 
         </RelativeLayout>
 
-        <RelativeLayout
+        <Button
+            android:id="@+id/btn_close_help"
             android:layout_width="55dp"
             android:layout_height="55dp"
             android:layout_marginLeft="840dp"
@@ -97,7 +98,7 @@
 
             android:background="@drawable/btn_close_set">
 
-        </RelativeLayout>
+        </Button>
     </RelativeLayout>
 
 </LinearLayout>

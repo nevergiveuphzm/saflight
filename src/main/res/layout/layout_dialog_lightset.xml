@@ -60,7 +60,7 @@
                             android:layout_height="70dp"
                             android:layout_marginLeft="10dp"
                             android:clickable="true"
-                            android:src="@drawable/btn_checkbox_checked"/>
+                            android:src="@drawable/btn_checkbox_checked_new"/>
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -84,7 +84,7 @@
                             android:layout_height="70dp"
                             android:layout_marginLeft="10dp"
                             android:clickable="true"
-                            android:src="@drawable/btn_checkbox_unchecked"/>
+                            android:src="@drawable/btn_checkbox_unchecked_new"/>
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -108,7 +108,7 @@
                             android:layout_height="70dp"
                             android:layout_marginLeft="10dp"
                             android:clickable="true"
-                            android:src="@drawable/btn_checkbox_unchecked"/>
+                            android:src="@drawable/btn_checkbox_unchecked_new"/>
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -157,7 +157,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="10dp"
                             android:clickable="true"
-                            android:src="@drawable/btn_checkbox_checked"/>
+                            android:src="@drawable/btn_checkbox_checked_new"/>
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -181,7 +181,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="10dp"
                             android:clickable="true"
-                            android:src="@drawable/btn_checkbox_unchecked"/>
+                            android:src="@drawable/btn_checkbox_unchecked_new"/>
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -205,7 +205,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="10dp"
                             android:clickable="true"
-                            android:src="@drawable/btn_checkbox_unchecked"/>
+                            android:src="@drawable/btn_checkbox_unchecked_new"/>
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -256,7 +256,7 @@
                             android:layout_height="70dp"
                             android:layout_marginLeft="10dp"
                             android:clickable="true"
-                            android:src="@drawable/btn_checkbox_checked"/>
+                            android:src="@drawable/btn_checkbox_checked_new"/>
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -280,7 +280,7 @@
                             android:layout_height="70dp"
                             android:layout_marginLeft="10dp"
                             android:clickable="true"
-                            android:src="@drawable/btn_checkbox_unchecked"/>
+                            android:src="@drawable/btn_checkbox_unchecked_new"/>
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -304,7 +304,7 @@
                             android:layout_height="70dp"
                             android:layout_marginLeft="10dp"
                             android:clickable="true"
-                            android:src="@drawable/btn_checkbox_unchecked"/>
+                            android:src="@drawable/btn_checkbox_unchecked_new"/>
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -378,7 +378,7 @@
                             android:layout_height="70dp"
                             android:layout_marginLeft="10dp"
                             android:clickable="true"
-                            android:src="@drawable/btn_checkbox_unchecked"/>
+                            android:src="@drawable/btn_checkbox_unchecked_new"/>
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -402,7 +402,7 @@
                             android:layout_height="70dp"
                             android:layout_marginLeft="10dp"
                             android:clickable="true"
-                            android:src="@drawable/btn_checkbox_unchecked"/>
+                            android:src="@drawable/btn_checkbox_unchecked_new"/>
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -447,6 +447,7 @@
 
             </LinearLayout>
             <Button
+                android:id="@+id/btn_ok"
                 android:layout_width="300dp"
                 android:layout_height="70dp"
                 android:layout_marginLeft="300dp"
@@ -463,7 +464,8 @@
 
         </RelativeLayout>
 
-        <RelativeLayout
+        <Button
+            android:id="@+id/btn_close_set"
             android:layout_width="55dp"
             android:layout_height="55dp"
             android:layout_marginLeft="840dp"
@@ -471,7 +473,7 @@
 
             android:background="@drawable/btn_close_set">
 
-        </RelativeLayout>
+        </Button>
     </RelativeLayout>
 
 </LinearLayout>

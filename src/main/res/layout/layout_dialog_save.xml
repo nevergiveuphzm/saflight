@@ -68,7 +68,8 @@
 
         </RelativeLayout>
 
-        <RelativeLayout
+        <Button
+            android:id="@+id/btn_close_save"
             android:layout_width="55dp"
             android:layout_height="55dp"
             android:layout_marginLeft="110dp"
@@ -78,7 +79,7 @@
             android:layout_toRightOf="@+id/relativeLayout"
             android:layout_toEndOf="@+id/relativeLayout">
 
-        </RelativeLayout>
+        </Button>
     </RelativeLayout>
 
 </LinearLayout>
